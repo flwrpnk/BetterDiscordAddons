@@ -1,5 +1,5 @@
 /**
- * @name recolor
+ * @name recolor2
  * @description Allows you to customize Discord's native Color Scheme.
  * @author DevilBro
  * @version 1.0.0
@@ -14,6 +14,7 @@
 
 @import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/DiscordRecolor/DiscordRecolor.css');
 @import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
+@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
 
 :root {
   --accentcolor: 136,112,199;
@@ -27,12 +28,12 @@
   --textdarker: 115,115,115;
   --textdarkest: 80,80,80;
   --font: gg sans;
-  --backgroundaccent: 0,0,0;
+  --backgroundaccent: 59,47,81;
   --backgroundprimary: 12,12,12;
   --backgroundsecondary: 12,12,12;
   --backgroundsecondaryalt: 12,12,12;
-  --backgroundtertiary: 12,12,12;
-  --backgroundfloating: 12,12,12;
+  --backgroundtertiary: 10,10,10;
+  --backgroundfloating: 14,14,14;
   --settingsicons: 0;
   --rs-small-spacing: 0px;
   --rs-medium-spacing: 0px;
