@@ -1,39 +1,22 @@
 /**
- * @name sda
- * @description Allows you to customize Discord's native Color Scheme.
- * @author DevilBro
- * @version 1.0.0
- * @authorId 278543574059057154
- * @invite Jx3TjNS
- * @donate https://www.paypal.me/MircoWittrien
- * @patreon https://www.patreon.com/MircoWittrien
- * @website https://mwittrien.github.io/
- * @source https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/DiscordRecolor/
- * @BDEditor DiscordRecolor
+ * @name sds
+ * @author Tropical#8908, Hammock#3110
+ * @version 3.0.0
+ * @description A cold, dark & frosty theme.
+ * @source https://github.com/DiscordStyles/DarkMatter/
+ * @BDEditor Dark Matter
 */
 
-@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/DiscordRecolor/DiscordRecolor.css');
-@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
+@import url('https://DiscordStyles.github.io/DarkMatter/src/base.css');
 
 :root {
-  --accentcolor: 136,112,199;
-  --accentcolor2: 136,112,199;
-  --linkcolor: 136,112,199;
-  --mentioncolor: 136,112,199;
-  --textbrightest: 255,255,255;
-  --textbrighter: 255,255,255;
-  --textbright: 185,185,185;
-  --textdark: 140,140,140;
-  --textdarker: 115,115,115;
-  --textdarkest: 80,80,80;
-  --font: gg sans;
-  --backgroundaccent: 0,0,0;
-  --backgroundprimary: 12,12,12;
-  --backgroundsecondary: 12,12,12;
-  --backgroundsecondaryalt: 12,12,12;
-  --backgroundtertiary: 12,12,12;
-  --backgroundfloating: 12,12,12;
-  --settingsicons: 0;
+  --background-image: transparent;
+  --home-image: transparent;
+  --accent: 37, 172, 232;
+  --accent-alt: 29, 101, 134;
+  --background-solid: #161921;
+  --background-solid-dark: #101218;
+  --background-solid-darker: #0c0e12;
 }
 
 /* Any custom CSS below here */
