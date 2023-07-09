@@ -82,14 +82,14 @@
 }
 
 .theme-dark {
-  --skin-accent-h: 0;
-  --skin-accent-s: 52%;
+  --skin-accent-h: 253;
+  --skin-accent-s: 100%;
   --skin-accent-l: 95;
-  --skin-accent-a: 67;
-  --skin-background-h: 0;
+  --skin-accent-a: 60;
+  --skin-background-h: 360;
   --skin-background-s: 0%;
-  --skin-background-l: 100;
-  --skin-background-a: 0;
+  --skin-background-l: 30;
+  --skin-background-a: 100;
   --switch-checked-background: 101,0%,10%;
   --switch-unchecked-background: #74796e33;
   --switch-unchecked-color: #111111;
@@ -131,10 +131,10 @@
 }
 
 .theme-light {
-  --skin-accent-h: 0;
-  --skin-accent-s: 52%;
+  --skin-accent-h: 253;
+  --skin-accent-s: 100%;
   --skin-accent-l: 95;
-  --skin-accent-a: 67;
+  --skin-accent-a: 60;
   --switch-checked-background: 101,0%,10%;
   --switch-unchecked-background: #74796e33;
   --switch-unchecked-color: #111111;
