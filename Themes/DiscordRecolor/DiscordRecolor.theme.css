@@ -21,7 +21,7 @@
 :root {
   --font-primary: Roboto;
   --font-code: Source Code Pro;
-  --floating-background-opacity: 100;
+  --floating-background-opacity: 0;
   --floating-background-blur: 0px;
   --version: "0.9.9";
   --version0_9_9: none;
@@ -90,9 +90,9 @@
   --skin-background-s: 0%;
   --skin-background-l: 100;
   --skin-background-a: 0;
-  --switch-checked-background: hsl(101, calc(var(--saturation-factor) * 54%), 27%);
+  --switch-checked-background: 101,0%,10%;
   --switch-unchecked-background: #74796e33;
-  --switch-unchecked-color: #74796e;
+  --switch-unchecked-color: #111111;
   --skin-name: "Default";
   --skin-author: "TheCommieAxolotl";
   --00dp: hsla(var(--skin-background-h, 0), calc(var(--saturation-factor, 1) * var(--skin-background-s, 0%)), calc(0.07% * var(--skin-background-l, 0)), calc(1% * var(--skin-background-a, 100)));
@@ -135,9 +135,9 @@
   --skin-accent-s: 52%;
   --skin-accent-l: 95;
   --skin-accent-a: 67;
-  --switch-checked-background: hsl(101, calc(var(--saturation-factor) * 54%), 27%);
+  --switch-checked-background: 101,0%,10%;
   --switch-unchecked-background: #74796e33;
-  --switch-unchecked-color: #74796e;
+  --switch-unchecked-color: #111111;
   --skin-name: "Default Light";
   --skin-author: "TheCommieAxolotl";
 }
